@@ -411,6 +411,42 @@
     [
       "84bf90ca-3018-4167-b21c-becfa336d24d",
       "Root"
+    ],
+    [
+      "fbb35a17-8b6e-4050-ac82-c776d68f020d",
+      "MCU"
+    ],
+    [
+      "ace2fb17-bc8d-4b92-8c62-07f64ea4f5e3",
+      "Power"
+    ],
+    [
+      "a3f4e773-47f1-4711-b0e8-2c3bb838ada1",
+      "USB"
+    ],
+    [
+      "658e640e-4231-4066-a789-211a5daf088f",
+      "Sensors"
+    ],
+    [
+      "5544b90c-74fe-4f60-b3cf-ae549aa17561",
+      "Pyro"
+    ],
+    [
+      "2a7430d8-c7e0-4592-a011-53cf7d86c7c7",
+      "External_Connectors"
+    ],
+    [
+      "7684371a-7739-4986-b967-cbcfc551769f",
+      "User_Interface"
+    ],
+    [
+      "cc3e1ff2-7a74-4203-a58b-2fc36d335686",
+      "Telemetry"
+    ],
+    [
+      "aa369500-0174-4f7d-8ef6-77a35d9b812a",
+      "Logging"
     ]
   ],
   "text_variables": {}

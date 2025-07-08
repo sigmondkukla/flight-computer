@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BUxxSD5")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/BUxxSD5.kicad_sym")(options "")(descr ""))
+  (lib (name "DT2042-04TS")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/DT2042-04TS.kicad_sym")(options "")(descr ""))
+  (lib (name "LSM6DSV80X")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/LSM6DSV80X.kicad_sym")(options "")(descr ""))
+  (lib (name "Wio-SX1262")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/Wio-SX1262.kicad_sym")(options "")(descr ""))
+  (lib (name "Teseo")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/Teseo.kicad_sym")(options "")(descr ""))
+  (lib (name "LM66200")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/LM66200.kicad_sym")(options "")(descr ""))
+  (lib (name "Qwiic")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/Qwiic.kicad_sym")(options "")(descr ""))
+  (lib (name "BUK9K25-40RAX")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/BUK9K25-40RAX.kicad_sym")(options "")(descr ""))
+  (lib (name "DMG2302UKQ")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/DMG2302UKQ.kicad_sym")(options "")(descr ""))
+)

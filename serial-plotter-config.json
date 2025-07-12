@@ -1,0 +1,128 @@
+{
+    "plot_windows": [
+        {
+            "id": "plot_0",
+            "title": "Accelerometer",
+            "data_streams": [
+                "Var 1",
+                "Var 3",
+                "Var 2"
+            ]
+        },
+        {
+            "id": "plot_1",
+            "title": "Gyroscope",
+            "data_streams": [
+                "Var 6",
+                "Var 5",
+                "Var 4"
+            ]
+        },
+        {
+            "id": "plot_2",
+            "title": "State Estimation",
+            "data_streams": [
+                "Var 7",
+                "Var 8"
+            ]
+        }
+    ],
+    "data_streams": {
+        "Var 1": {
+            "display_name": "Accelerometer X",
+            "units": "m/s^2",
+            "color": [
+                0.8941177129745483,
+                0.10196079313755035,
+                0.1098039299249649,
+                1.0
+            ],
+            "plot_assignments": []
+        },
+        "Var 2": {
+            "display_name": "Accelerometer Y",
+            "units": "m/s^2",
+            "color": [
+                0.2607305645942688,
+                0.7215686440467834,
+                0.21568624675273895,
+                1.0
+            ],
+            "plot_assignments": []
+        },
+        "Var 3": {
+            "display_name": "Accelerometer Z",
+            "units": "m/s^2",
+            "color": [
+                0.29019609093666077,
+                0.42583945393562317,
+                0.686274528503418,
+                1.0
+            ],
+            "plot_assignments": []
+        },
+        "Var 4": {
+            "display_name": "Gyroscope X",
+            "units": "rad/s",
+            "color": [
+                0.8941177129745483,
+                0.10196079313755035,
+                0.1098039299249649,
+                1.0
+            ],
+            "plot_assignments": []
+        },
+        "Var 5": {
+            "display_name": "Gyroscope Y",
+            "units": "rad/s",
+            "color": [
+                0.2607305645942688,
+                0.7215686440467834,
+                0.21568624675273895,
+                1.0
+            ],
+            "plot_assignments": []
+        },
+        "Var 6": {
+            "display_name": "Gyroscope Z",
+            "units": "rad/s",
+            "color": [
+                0.29019609093666077,
+                0.42583945393562317,
+                0.686274528503418,
+                1.0
+            ],
+            "plot_assignments": []
+        },
+        "Var 7": {
+            "display_name": "Phi Hat Accelerometer",
+            "units": "rad",
+            "color": [
+                0.7166986465454102,
+                0.12310001999139786,
+                0.8767123222351074,
+                1.0
+            ],
+            "plot_assignments": [
+                "plot_0"
+            ]
+        },
+        "Var 8": {
+            "display_name": "Theta Hat Accelerometer",
+            "units": "rad",
+            "color": [
+                0.8972602486610413,
+                0.44294750690460205,
+                0.12598517537117004,
+                1.0
+            ],
+            "plot_assignments": [
+                "plot_0"
+            ]
+        }
+    },
+    "plot_settings": {
+        "follow_mode": true,
+        "follow_duration_s": 10.0
+    }
+}

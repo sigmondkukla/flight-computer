@@ -916,7 +916,7 @@
 	)
 	(rectangle
 		(start 12.7 63.5)
-		(end 101.6 114.3)
+		(end 114.3 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -928,7 +928,7 @@
 	)
 	(rectangle
 		(start 12.7 12.7)
-		(end 101.6 63.5)
+		(end 114.3 63.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -950,9 +950,19 @@
 		)
 		(uuid "42bdfd6d-34ad-4d99-a349-f95b98080d66")
 	)
+	(text "3V high logic level\nif continuous"
+		(exclude_from_sim no)
+		(at 100.838 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e25d31f-8a7f-40a5-ae0f-5b021a517175")
+	)
 	(text "BUK9K25-40RAX\n18.2A MOSFET array\nin LFPAK56D package"
 		(exclude_from_sim no)
-		(at 122.174 62.992 0)
+		(at 135.128 58.928 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -960,26 +970,6 @@
 			(href "https://www.digikey.com/en/products/detail/nexperia-usa-inc/BUK9K25-40RAX/13898679")
 		)
 		(uuid "7b238283-77d3-4e05-b4cb-dab517972295")
-	)
-	(text "must be on 5V tolerant I/O"
-		(exclude_from_sim no)
-		(at 74.93 80.518 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b5c2a20b-1c8d-488d-bd04-e0b41b066af0")
-	)
-	(text "must be on 5V tolerant I/O"
-		(exclude_from_sim no)
-		(at 76.2 29.464 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b7af68dc-75e3-415e-8a7b-3fa323f819bf")
 	)
 	(text "Pyro channel 1"
 		(exclude_from_sim no)
@@ -995,13 +985,23 @@
 	)
 	(text "can easily substitute with\nhigher continuous drain\ncurrent alternatives in\nsame package\n\ni.e. 40A for $1"
 		(exclude_from_sim no)
-		(at 122.428 77.724 0)
+		(at 134.874 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "d8a19dae-adc1-4aa8-8410-352d643954d6")
+	)
+	(text "3V high logic level\nif continuous"
+		(exclude_from_sim no)
+		(at 100.838 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ebdcc190-374d-4bf8-867e-2d256d97d708")
 	)
 	(junction
 		(at 44.45 44.45)
@@ -1022,10 +1022,42 @@
 		(uuid "5438c1d1-d67c-4d42-abfa-f3632ad06808")
 	)
 	(junction
+		(at 82.55 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "932ba81f-9508-47e1-bf59-db52ee8cc177")
+	)
+	(junction
 		(at 44.45 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8b7658-5f38-47e3-8eec-2c89daf3daac")
+	)
+	(junction
+		(at 81.28 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa22989c-bcff-4c28-971a-06b5014a556f")
+	)
+	(wire
+		(pts
+			(xy 82.55 49.53) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e03114-a220-4d77-ae06-30b4ca77e55f")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145163ec-a099-4a45-923f-277a4479b0c9")
 	)
 	(wire
 		(pts
@@ -1039,6 +1071,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 82.55) (xy 81.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183ce28a-d53b-4380-b81c-09d8c520f0f6")
+	)
+	(wire
+		(pts
 			(xy 44.45 95.25) (xy 50.8 95.25)
 		)
 		(stroke
@@ -1049,6 +1091,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 39.37) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c2c31e-6088-4b9b-904a-8b4d8b00aa0b")
+	)
+	(wire
+		(pts
 			(xy 34.29 95.25) (xy 36.83 95.25)
 		)
 		(stroke
@@ -1056,6 +1108,16 @@
 			(type default)
 		)
 		(uuid "273b37e6-1611-43d7-b904-dae0c3434029")
+	)
+	(wire
+		(pts
+			(xy 82.55 31.75) (xy 82.55 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d4ed2e-3de1-45f7-85a0-33fa0b64cf3d")
 	)
 	(wire
 		(pts
@@ -1089,7 +1151,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 31.75) (xy 69.85 31.75)
+			(xy 57.15 31.75) (xy 82.55 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1109,13 +1171,33 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 44.45 82.55)
+			(xy 82.55 41.91) (xy 82.55 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454156a4-7fc6-4a56-9c8e-0b6eefde689b")
+	)
+	(wire
+		(pts
+			(xy 44.45 82.55) (xy 57.15 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5584b939-f5d5-4636-a478-ac803babd126")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 81.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9b4fa2-de49-4f71-9679-95601aa3387a")
 	)
 	(wire
 		(pts
@@ -1169,7 +1251,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 69.85 82.55)
+			(xy 81.28 100.33) (xy 81.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ba271b-2530-4b0e-9799-b4dbbd1332a4")
+	)
+	(wire
+		(pts
+			(xy 57.15 82.55) (xy 81.28 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1199,6 +1291,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 41.91) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c2a412-bf46-4aa2-83ab-460728f56921")
+	)
+	(wire
+		(pts
 			(xy 44.45 52.07) (xy 44.45 54.61)
 		)
 		(stroke
@@ -1206,6 +1308,16 @@
 			(type default)
 		)
 		(uuid "b9759c4a-0abc-4810-9d7f-db36e60e54d6")
+	)
+	(wire
+		(pts
+			(xy 81.28 90.17) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35424cb-5830-489c-b360-efd6ed66f1ce")
 	)
 	(wire
 		(pts
@@ -1289,7 +1401,7 @@
 	)
 	(hierarchical_label "PYRO1_CONT"
 		(shape output)
-		(at 69.85 31.75 0)
+		(at 95.25 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1311,7 +1423,7 @@
 	)
 	(hierarchical_label "PYRO2_CONT"
 		(shape output)
-		(at 69.85 82.55 0)
+		(at 95.25 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1330,76 +1442,6 @@
 			(justify right)
 		)
 		(uuid "e553077f-accf-435e-82a1-aa26ece653fd")
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 44.45 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00bdb06a-8051-4e73-8f61-f0eecce72755")
-		(property "Reference" "R29"
-			(at 46.99 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 46.99 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 44.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5e9de97-0fbf-43c9-bf47-5d500c0c4b1a")
-		)
-		(pin "2"
-			(uuid "7fe07bd5-453a-4e6c-9304-72b92f6e38a9")
-		)
-		(instances
-			(project "flight-computer"
-				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1534,16 +1576,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 44.45 49.53 0)
+		(at 81.28 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c8e3991-f975-4633-80e6-f683952e6b2b")
-		(property "Reference" "R26"
-			(at 46.99 48.2599 0)
+		(uuid "2cc20590-4009-4b93-b20a-0d6f5fb93940")
+		(property "Reference" "R67"
+			(at 83.82 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,8 +1593,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 46.99 50.7999 0)
+		(property "Value" "47k"
+			(at 83.82 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 49.53 0)
+			(at 81.28 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 49.53 0)
+			(at 81.28 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1621,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 44.45 49.53 0)
+			(at 81.28 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,15 +1630,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "aad82e2b-824b-4d38-a570-9afdf90c5540")
+			(uuid "2ccd3e1d-cadc-4886-9171-1cd2020ad5ba")
 		)
 		(pin "2"
-			(uuid "930979eb-b67f-4186-9b31-8394e197206b")
+			(uuid "f378515c-fc48-4e5d-b6d5-11195f382009")
 		)
 		(instances
-			(project ""
+			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
-					(reference "R26")
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 44.45 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32112730-676e-4fa4-a0c7-0b25beca2876")
+		(property "Reference" "R69"
+			(at 46.99 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 46.99 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d4e5865-4150-49f5-ab16-90359c65ea80")
+		)
+		(pin "2"
+			(uuid "af405ebc-ab4d-41f6-bf05-364d4574532b")
+		)
+		(instances
+			(project "flight-computer"
+				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -1744,6 +1856,76 @@
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 82.55 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66c175c9-4509-41b2-8537-1f4016c06680")
+		(property "Reference" "R30"
+			(at 85.09 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 85.09 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68416280-1399-47f6-914f-1d1007812c81")
+		)
+		(pin "2"
+			(uuid "4871a976-ed40-4af6-bec3-6b9fb0b8c271")
+		)
+		(instances
+			(project ""
+				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1949,6 +2131,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 81.28 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0f5cd32-117b-464d-94b6-ec11e6bab661")
+		(property "Reference" "R68"
+			(at 83.82 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27k"
+			(at 83.82 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c03fd92-cf61-44fd-9533-9f72faa58731")
+		)
+		(pin "2"
+			(uuid "d2efd637-bc93-4bc9-b1b3-63d8281b3863")
+		)
+		(instances
+			(project "flight-computer"
+				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 44.45 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a361f7f1-c4e2-42de-9078-a9b059600a45")
+		(property "Reference" "R70"
+			(at 46.99 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 46.99 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d4c4e08-9b4a-4cce-b808-5c3d5c19d8be")
+		)
+		(pin "2"
+			(uuid "1e81bc3d-8609-49ce-b38a-65ececde8dd2")
+		)
+		(instances
+			(project "flight-computer"
+				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 39.37 80.01 0)
 		(mirror y)
@@ -2085,6 +2407,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 81.28 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b77fa219-6760-4187-ad6e-eb3fcb6f67bd")
+		(property "Reference" "#PWR0109"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c0735a4-cb21-4e12-b4b8-fc9f6d7c6934")
+		)
+		(instances
+			(project "flight-computer"
+				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbb18481-f651-4df1-b04e-8ec1f37dcf07")
+		(property "Reference" "#PWR0108"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ce6cc92-3874-4de2-b3b5-118f5beec6d2")
+		)
+		(instances
+			(project "flight-computer"
+				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 39.37 44.45 90)
 		(unit 1)
@@ -2147,6 +2599,76 @@
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 82.55 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1c4a421-a743-4749-a1de-2949d199ec8a")
+		(property "Reference" "R66"
+			(at 85.09 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27k"
+			(at 85.09 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4f0adcc-b5f6-441f-8766-6322f4ebb6c5")
+		)
+		(pin "2"
+			(uuid "ef994323-9d6a-47de-a0a8-7e15b23dd565")
+		)
+		(instances
+			(project "flight-computer"
+				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/5544b90c-74fe-4f60-b3cf-ae549aa17561"
+					(reference "R66")
 					(unit 1)
 				)
 			)

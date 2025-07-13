@@ -9,4 +9,5 @@
   (lib (name "Qwiic")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/Qwiic.kicad_sym")(options "")(descr ""))
   (lib (name "BUK9K25-40RAX")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/BUK9K25-40RAX.kicad_sym")(options "")(descr ""))
   (lib (name "DMG2302UKQ")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/DMG2302UKQ.kicad_sym")(options "")(descr ""))
+  (lib (name "TI_DCDC")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/TI_DCDC.kicad_sym")(options "")(descr ""))
 )

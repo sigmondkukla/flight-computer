@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "a6de31a4-49bd-4d51-a86e-d623f8566af5")
 	(paper "A4")
+	(title_block
+		(title "Flight Computer")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -1888,7 +1891,7 @@
 		(uuid "ff2b26ae-ffc6-40cb-bb13-761dbed3b1ce")
 	)
 	(hierarchical_label "USB_DM"
-		(shape input)
+		(shape bidirectional)
 		(at 88.9 106.68 0)
 		(effects
 			(font
@@ -1910,7 +1913,7 @@
 		(uuid "d692a6ac-06a4-4a64-b60a-a56a67aa440e")
 	)
 	(hierarchical_label "USB_DP"
-		(shape input)
+		(shape bidirectional)
 		(at 88.9 109.22 0)
 		(effects
 			(font

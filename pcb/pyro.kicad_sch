@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "ffd3308a-a0a4-4a91-8320-c709500a93e5")
 	(paper "A4")
+	(title_block
+		(title "Flight Computer")
+	)
 	(lib_symbols
 		(symbol "BUK9K25-40RAX:BUK9K25-40RAX"
 			(pin_names
@@ -912,8 +915,8 @@
 		)
 	)
 	(rectangle
-		(start 19.05 82.55)
-		(end 107.95 133.35)
+		(start 12.7 63.5)
+		(end 101.6 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -924,8 +927,8 @@
 		(uuid 81e86a96-25fe-46b4-a891-3a554f6b4b2b)
 	)
 	(rectangle
-		(start 19.05 19.05)
-		(end 107.95 69.85)
+		(start 12.7 12.7)
+		(end 101.6 63.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -937,7 +940,7 @@
 	)
 	(text "Pyro channel 2"
 		(exclude_from_sim no)
-		(at 27.432 84.836 0)
+		(at 21.082 65.786 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -947,9 +950,20 @@
 		)
 		(uuid "42bdfd6d-34ad-4d99-a349-f95b98080d66")
 	)
+	(text "BUK9K25-40RAX\n18.2A MOSFET array\nin LFPAK56D package"
+		(exclude_from_sim no)
+		(at 122.174 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.digikey.com/en/products/detail/nexperia-usa-inc/BUK9K25-40RAX/13898679")
+		)
+		(uuid "7b238283-77d3-4e05-b4cb-dab517972295")
+	)
 	(text "must be on 5V tolerant I/O"
 		(exclude_from_sim no)
-		(at 82.042 104.648 0)
+		(at 74.93 80.518 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -959,7 +973,7 @@
 	)
 	(text "must be on 5V tolerant I/O"
 		(exclude_from_sim no)
-		(at 82.55 35.814 0)
+		(at 76.2 29.464 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -969,7 +983,7 @@
 	)
 	(text "Pyro channel 1"
 		(exclude_from_sim no)
-		(at 27.432 21.336 0)
+		(at 21.082 14.986 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -979,33 +993,43 @@
 		)
 		(uuid "ca001f7e-00d8-499c-96bb-784fb9ea7d31")
 	)
+	(text "can easily substitute with\nhigher continuous drain\ncurrent alternatives in\nsame package\n\ni.e. 40A for $1"
+		(exclude_from_sim no)
+		(at 122.428 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8a19dae-adc1-4aa8-8410-352d643954d6")
+	)
 	(junction
-		(at 50.8 50.8)
+		(at 44.45 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bdc9e95-12fe-4a7e-a981-1c708f548e35")
 	)
 	(junction
-		(at 63.5 38.1)
+		(at 57.15 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28abd1a2-1af3-4072-9947-986d702f0e5e")
 	)
 	(junction
-		(at 63.5 101.6)
+		(at 57.15 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5438c1d1-d67c-4d42-abfa-f3632ad06808")
 	)
 	(junction
-		(at 50.8 114.3)
+		(at 44.45 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8b7658-5f38-47e3-8eec-2c89daf3daac")
 	)
 	(wire
 		(pts
-			(xy 63.5 96.52) (xy 63.5 99.06)
+			(xy 57.15 77.47) (xy 57.15 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 114.3) (xy 57.15 114.3)
+			(xy 44.45 95.25) (xy 50.8 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 114.3) (xy 43.18 114.3)
+			(xy 34.29 95.25) (xy 36.83 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1059,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 63.5 109.22)
+			(xy 57.15 82.55) (xy 57.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 121.92) (xy 50.8 124.46)
+			(xy 44.45 102.87) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 57.15 50.8)
+			(xy 44.45 44.45) (xy 50.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 38.1) (xy 76.2 38.1)
+			(xy 57.15 31.75) (xy 69.85 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 55.88) (xy 63.5 60.96)
+			(xy 57.15 49.53) (xy 57.15 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 50.8 101.6)
+			(xy 57.15 82.55) (xy 44.45 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 99.06) (xy 50.8 99.06)
+			(xy 57.15 80.01) (xy 44.45 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 35.56) (xy 50.8 35.56)
+			(xy 57.15 29.21) (xy 44.45 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 119.38) (xy 63.5 124.46)
+			(xy 57.15 100.33) (xy 57.15 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 50.8) (xy 43.18 50.8)
+			(xy 34.29 44.45) (xy 36.83 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 38.1) (xy 63.5 45.72)
+			(xy 57.15 31.75) (xy 57.15 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 76.2 101.6)
+			(xy 57.15 82.55) (xy 69.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1155,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 114.3) (xy 50.8 114.3)
+			(xy 41.91 95.25) (xy 44.45 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1165,7 +1189,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 50.8) (xy 50.8 50.8)
+			(xy 41.91 44.45) (xy 44.45 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 58.42) (xy 50.8 60.96)
+			(xy 44.45 52.07) (xy 44.45 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1185,7 +1209,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 63.5 38.1)
+			(xy 44.45 31.75) (xy 57.15 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 50.8 53.34)
+			(xy 44.45 44.45) (xy 44.45 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 33.02) (xy 63.5 35.56)
+			(xy 57.15 26.67) (xy 57.15 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1215,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 114.3) (xy 50.8 116.84)
+			(xy 44.45 95.25) (xy 44.45 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1248,7 @@
 		(uuid "f93bcee3-0cb1-4700-957c-3f9e5a811e80")
 	)
 	(label "PYRO2-"
-		(at 63.5 101.6 180)
+		(at 57.15 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1234,7 +1258,7 @@
 		(uuid "222fa18b-2f98-4e3c-821a-ff84150a0789")
 	)
 	(label "PYRO2+"
-		(at 63.5 99.06 180)
+		(at 57.15 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1244,7 +1268,7 @@
 		(uuid "340f5f38-5273-4d81-88cd-79203ffba16d")
 	)
 	(label "PYRO1-"
-		(at 63.5 38.1 180)
+		(at 57.15 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1254,7 +1278,7 @@
 		(uuid "bb0c99bb-64bf-429b-bfa1-c3cc64cc4601")
 	)
 	(label "PYRO1+"
-		(at 63.5 35.56 180)
+		(at 57.15 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1264,8 +1288,8 @@
 		(uuid "c4339d62-73d1-44e5-9e57-1f576e4a1ff3")
 	)
 	(hierarchical_label "PYRO1_CONT"
-		(shape input)
-		(at 76.2 38.1 0)
+		(shape output)
+		(at 69.85 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1276,7 +1300,7 @@
 	)
 	(hierarchical_label "PYRO2_GATE"
 		(shape input)
-		(at 40.64 114.3 180)
+		(at 34.29 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1286,8 +1310,8 @@
 		(uuid "17cbb1f2-10e8-44bc-88e7-52459cf0a6b4")
 	)
 	(hierarchical_label "PYRO2_CONT"
-		(shape input)
-		(at 76.2 101.6 0)
+		(shape output)
+		(at 69.85 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1322,7 @@
 	)
 	(hierarchical_label "PYRO1_GATE"
 		(shape input)
-		(at 40.64 50.8 180)
+		(at 34.29 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1309,7 +1333,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 50.8 119.38 0)
+		(at 44.45 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1318,7 +1342,7 @@
 		(fields_autoplaced yes)
 		(uuid "00bdb06a-8051-4e73-8f61-f0eecce72755")
 		(property "Reference" "R29"
-			(at 53.34 118.1099 0)
+			(at 46.99 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1351,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 120.6499 0)
+			(at 46.99 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 119.38 0)
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 119.38 0)
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1378,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 50.8 119.38 0)
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1403,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 124.46 0)
+		(at 57.15 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1387,7 +1411,7 @@
 		(dnp no)
 		(uuid "01930bd0-f0e3-41c0-9262-905bf218a5f0")
 		(property "Reference" "#PWR082"
-			(at 63.5 130.81 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1420,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 128.524 0)
+			(at 57.15 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 124.46 0)
+			(at 57.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 124.46 0)
+			(at 57.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 124.46 0)
+			(at 57.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1468,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 63.5 96.52 0)
+		(at 57.15 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1453,7 +1477,7 @@
 		(fields_autoplaced yes)
 		(uuid "27a73a2d-25e8-46c7-9786-0d4b8d22987c")
 		(property "Reference" "#PWR084"
-			(at 63.5 100.33 0)
+			(at 57.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1486,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 63.5 91.44 0)
+			(at 57.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 96.52 0)
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 96.52 0)
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1512,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 63.5 96.52 0)
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1534,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 50.8 55.88 0)
+		(at 44.45 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1519,7 +1543,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c8e3991-f975-4633-80e6-f683952e6b2b")
 		(property "Reference" "R26"
-			(at 53.34 54.6099 0)
+			(at 46.99 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1552,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 57.1499 0)
+			(at 46.99 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 55.88 0)
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 55.88 0)
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1579,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 50.8 55.88 0)
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1604,7 @@
 	)
 	(symbol
 		(lib_id "BUK9K25-40RAX:BUK9K25-40RAX")
-		(at 63.5 114.3 0)
+		(at 57.15 95.25 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1589,7 +1613,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d5e1d92-624a-400f-95a3-eacb1257283c")
 		(property "Reference" "U11"
-			(at 67.31 113.0299 0)
+			(at 60.96 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1622,7 @@
 			)
 		)
 		(property "Value" "BUK9K25-40RAX"
-			(at 67.31 115.5699 0)
+			(at 60.96 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1631,7 @@
 			)
 		)
 		(property "Footprint" "BUK9K25-40RAX:BUK9K2540RAX"
-			(at 63.5 114.3 0)
+			(at 57.15 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1640,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BUK9K25-40RA.pdf"
-			(at 63.5 114.3 0)
+			(at 57.15 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1649,7 @@
 			)
 		)
 		(property "Description" "Nexperia USA Mosfet Array 40V 18.2A 2 N Channel NMOS"
-			(at 63.5 114.3 0)
+			(at 57.15 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1686,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 124.46 0)
+		(at 44.45 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1670,7 +1694,7 @@
 		(dnp no)
 		(uuid "4134df5e-7156-40f1-a19b-e907521394d7")
 		(property "Reference" "#PWR081"
-			(at 50.8 130.81 0)
+			(at 44.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1679,7 +1703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 128.524 0)
+			(at 44.45 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 124.46 0)
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +1720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 124.46 0)
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1729,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 124.46 0)
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1751,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 60.96 0)
+		(at 44.45 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1735,7 +1759,7 @@
 		(dnp no)
 		(uuid "74ae95f4-4dd4-4fb3-8dab-7b9305561a51")
 		(property "Reference" "#PWR080"
-			(at 50.8 67.31 0)
+			(at 44.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +1768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 65.024 0)
+			(at 44.45 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 60.96 0)
+			(at 44.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 60.96 0)
+			(at 44.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 60.96 0)
+			(at 44.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1816,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 45.72 35.56 0)
+		(at 39.37 29.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1801,7 +1825,7 @@
 		(dnp no)
 		(uuid "77f73356-b234-4f31-8056-3a42124b493a")
 		(property "Reference" "J9"
-			(at 42.164 35.56 0)
+			(at 35.814 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1833,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 32.512 38.1 0)
+			(at 26.162 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 35.56 0)
+			(at 39.37 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +1850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 35.56 0)
+			(at 39.37 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1859,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 35.56 0)
+			(at 39.37 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1884,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 63.5 33.02 0)
+		(at 57.15 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1869,7 +1893,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cb7fe0e-5212-40ee-8faf-44caa12128a3")
 		(property "Reference" "#PWR083"
-			(at 63.5 36.83 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1902,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 63.5 27.94 0)
+			(at 57.15 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +1910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 33.02 0)
+			(at 57.15 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 33.02 0)
+			(at 57.15 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 63.5 33.02 0)
+			(at 57.15 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +1950,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 45.72 99.06 0)
+		(at 39.37 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1935,7 +1959,7 @@
 		(dnp no)
 		(uuid "ac8e5a0c-af91-4bca-8c48-fb014a1be379")
 		(property "Reference" "J10"
-			(at 42.164 99.06 0)
+			(at 35.814 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +1967,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 32.512 101.6 0)
+			(at 26.162 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 99.06 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1984,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 99.06 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +1993,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 99.06 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2018,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 45.72 114.3 90)
+		(at 39.37 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2003,7 +2027,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6292ccd-496f-4c4c-87b5-22f0a9d461f0")
 		(property "Reference" "R28"
-			(at 45.72 107.95 90)
+			(at 39.37 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2035,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 45.72 110.49 90)
+			(at 39.37 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +2043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 114.3 0)
+			(at 39.37 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 114.3 0)
+			(at 39.37 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2061,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 45.72 114.3 0)
+			(at 39.37 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2086,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 45.72 50.8 90)
+		(at 39.37 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2071,7 +2095,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc7b5773-62b9-445d-84d1-4b0ab45782d7")
 		(property "Reference" "R27"
-			(at 45.72 44.45 90)
+			(at 39.37 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2103,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 45.72 46.99 90)
+			(at 39.37 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 50.8 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 50.8 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2129,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 45.72 50.8 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2154,7 @@
 	)
 	(symbol
 		(lib_id "BUK9K25-40RAX:BUK9K25-40RAX")
-		(at 63.5 50.8 0)
+		(at 57.15 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2139,7 +2163,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb977fdf-7992-4ab1-8abf-1f5f1456b315")
 		(property "Reference" "U11"
-			(at 67.31 49.5299 0)
+			(at 60.96 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2172,7 @@
 			)
 		)
 		(property "Value" "BUK9K25-40RAX"
-			(at 67.31 52.0699 0)
+			(at 60.96 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2181,7 @@
 			)
 		)
 		(property "Footprint" "BUK9K25-40RAX:BUK9K2540RAX"
-			(at 63.5 50.8 0)
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2190,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BUK9K25-40RA.pdf"
-			(at 63.5 50.8 0)
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2199,7 @@
 			)
 		)
 		(property "Description" "Nexperia USA Mosfet Array 40V 18.2A 2 N Channel NMOS"
-			(at 63.5 50.8 0)
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 60.96 0)
+		(at 57.15 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2220,7 +2244,7 @@
 		(dnp no)
 		(uuid "fe68eb30-bb91-4938-9dad-b88c28712324")
 		(property "Reference" "#PWR079"
-			(at 63.5 67.31 0)
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2253,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 65.024 0)
+			(at 57.15 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 60.96 0)
+			(at 57.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 60.96 0)
+			(at 57.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 60.96 0)
+			(at 57.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

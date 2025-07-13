@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "238f354c-7871-4c35-be25-95f5cc5aa886")
 	(paper "A4")
+	(title_block
+		(title "Flight Computer")
+	)
 	(lib_symbols
 		(symbol "DMG2302UKQ:DMG2302UKQ"
 			(pin_names
@@ -2203,7 +2206,7 @@
 		(uuid "8899461d-1c0e-4fbe-9b74-99579a7af3d5")
 	)
 	(hierarchical_label "USER_BUTTON"
-		(shape input)
+		(shape output)
 		(at 63.5 95.25 0)
 		(effects
 			(font

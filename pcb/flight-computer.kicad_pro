@@ -445,8 +445,16 @@
       "Telemetry"
     ],
     [
+      "bcbca31a-cb78-4a31-a36c-cd7eeae4ce58",
+      "Debug"
+    ],
+    [
       "aa369500-0174-4f7d-8ef6-77a35d9b812a",
       "Logging"
+    ],
+    [
+      "ec4a7247-05db-4b1e-ac64-3fc4ac72dc0f",
+      "GPS"
     ]
   ],
   "text_variables": {}

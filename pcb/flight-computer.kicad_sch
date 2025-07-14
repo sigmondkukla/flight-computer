@@ -1362,16 +1362,6 @@
 				(justify left top)
 			)
 		)
-		(pin "PWR_STATUS" input
-			(at 63.5 78.74 0)
-			(uuid "0dc5ad45-b2e7-464b-a5b1-b013e866e68d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BATT_SENSE" input
 			(at 63.5 81.28 0)
 			(uuid "05346dac-5a45-4c53-9382-8e1b9b1a0052")
@@ -1889,16 +1879,6 @@
 				(justify left)
 			)
 		)
-		(pin "BATT_SENSE" input
-			(at 76.2 81.28 180)
-			(uuid "c213a246-3014-4a7b-9316-00a713e2dfe5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GPS_RESET" output
 			(at 114.3 86.36 0)
 			(uuid "e4f64c0d-ba81-464d-ab46-57e068123c00")
@@ -2022,16 +2002,6 @@
 		(pin "PYRO2_GATE" output
 			(at 76.2 124.46 180)
 			(uuid "be324037-9477-4be3-adc7-224b09660393")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PWR_STATUS" input
-			(at 76.2 78.74 180)
-			(uuid "3d352a21-28a9-42ce-ab1a-beceeacb3494")
 			(effects
 				(font
 					(size 1.27 1.27)

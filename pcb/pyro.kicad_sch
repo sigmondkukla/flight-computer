@@ -1147,6 +1147,18 @@
 		)
 		(uuid fc6f2e42-7407-47f8-94e1-d21399b4df3f)
 	)
+	(text "valid to put LED on MOSFET gate signal?\nor should I somehow parallel it with pyro itself?\nor completely independent using two more GPIOs like the STATUS\nor just ditch these altogether"
+		(exclude_from_sim no)
+		(at 14.986 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "140a7f6d-173e-4270-91a7-e97cb81a77d8")
+	)
 	(text "2V"
 		(exclude_from_sim no)
 		(at 54.864 171.704 0)

@@ -1147,7 +1147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18061d58-a528-4472-aa9a-35e56cf5a5aa")
-		(property "Reference" "R61"
+		(property "Reference" "R45"
 			(at 67.31 30.734 0)
 			(effects
 				(font
@@ -1165,7 +1165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -1201,7 +1201,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/cc3e1ff2-7a74-4203-a58b-2fc36d335686"
-					(reference "R61")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -1217,7 +1217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b686cbc-4900-471e-95f7-86eb9c2d5033")
-		(property "Reference" "U7"
+		(property "Reference" "U12"
 			(at 91.0433 35.56 0)
 			(effects
 				(font
@@ -1301,7 +1301,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/cc3e1ff2-7a74-4203-a58b-2fc36d335686"
-					(reference "U7")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -1317,7 +1317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d268e34-ba71-4597-954e-12f0e5718fc3")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0114"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -1367,7 +1367,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/cc3e1ff2-7a74-4203-a58b-2fc36d335686"
-					(reference "#PWR046")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1382,7 +1382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4348a4d8-3381-442a-a300-7d2c6a0f339a")
-		(property "Reference" "R63"
+		(property "Reference" "R43"
 			(at 41.91 41.148 90)
 			(effects
 				(font
@@ -1398,7 +1398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.45 43.18 0)
 			(effects
 				(font
@@ -1434,7 +1434,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/cc3e1ff2-7a74-4203-a58b-2fc36d335686"
-					(reference "R63")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -1450,7 +1450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d337190-aea4-4236-b82f-85f56158fa0a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0113"
 			(at 88.9 29.21 0)
 			(effects
 				(font
@@ -1500,7 +1500,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/cc3e1ff2-7a74-4203-a58b-2fc36d335686"
-					(reference "#PWR047")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -1515,7 +1515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7eef49b4-bdb0-4fdb-a768-0e98517e2340")
-		(property "Reference" "R62"
+		(property "Reference" "R42"
 			(at 41.91 36.068 90)
 			(effects
 				(font
@@ -1531,7 +1531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.45 38.1 0)
 			(effects
 				(font
@@ -1567,7 +1567,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/cc3e1ff2-7a74-4203-a58b-2fc36d335686"
-					(reference "R62")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1582,7 +1582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de9d5bc0-6692-490e-9cc3-d171b38667b8")
-		(property "Reference" "R25"
+		(property "Reference" "R46"
 			(at 73.66 30.734 0)
 			(effects
 				(font
@@ -1600,7 +1600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 31.75 0)
 			(effects
 				(font
@@ -1636,7 +1636,7 @@
 		(instances
 			(project ""
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/cc3e1ff2-7a74-4203-a58b-2fc36d335686"
-					(reference "R25")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1651,7 +1651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8d7f46b-5811-4251-9378-ac3703484461")
-		(property "Reference" "R64"
+		(property "Reference" "R44"
 			(at 52.07 46.228 90)
 			(effects
 				(font
@@ -1667,7 +1667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.61 48.26 0)
 			(effects
 				(font
@@ -1703,7 +1703,7 @@
 		(instances
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/cc3e1ff2-7a74-4203-a58b-2fc36d335686"
-					(reference "R64")
+					(reference "R44")
 					(unit 1)
 				)
 			)

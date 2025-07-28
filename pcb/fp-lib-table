@@ -11,4 +11,5 @@
   (lib (name "BM04B-SRSS-TB")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/footprints/BM04B-SRSS-TB.pretty")(options "")(descr ""))
   (lib (name "BUK9K25-40RAX")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/footprints/BUK9K25-40RAX.pretty")(options "")(descr ""))
   (lib (name "B38G3RGB")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/footprints/B38G3RGB.pretty")(options "")(descr ""))
+  (lib (name "Wurth_ScrewTerminal_691137710002")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/footprints/Wurth_ScrewTerminal_691137710002.pretty")(options "")(descr ""))
 )

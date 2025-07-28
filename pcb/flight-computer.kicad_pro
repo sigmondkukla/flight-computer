@@ -395,6 +395,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": "flight-computer.wbk"
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -455,6 +463,10 @@
     [
       "ec4a7247-05db-4b1e-ac64-3fc4ac72dc0f",
       "GPS"
+    ],
+    [
+      "80c85db1-d45e-4143-91ae-9385718e2650",
+      "Camera"
     ]
   ],
   "text_variables": {}

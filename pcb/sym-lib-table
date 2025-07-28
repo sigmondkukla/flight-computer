@@ -10,4 +10,6 @@
   (lib (name "BUK9K25-40RAX")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/BUK9K25-40RAX.kicad_sym")(options "")(descr ""))
   (lib (name "DMG2302UKQ")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/DMG2302UKQ.kicad_sym")(options "")(descr ""))
   (lib (name "TI_DCDC")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/TI_DCDC.kicad_sym")(options "")(descr ""))
+  (lib (name "SSD1306_OLED")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/SSD1306_OLED.kicad_sym")(options "")(descr ""))
+  (lib (name "DI_ZXCT180")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/symbols/DI_ZXCT180.kicad_sym")(options "")(descr ""))
 )

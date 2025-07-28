@@ -1153,7 +1153,7 @@
 	)
 	(text "close to MCU"
 		(exclude_from_sim no)
-		(at 44.45 66.04 0)
+		(at 44.45 31.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1176,7 +1176,7 @@
 	)
 	(text "close to MCU"
 		(exclude_from_sim no)
-		(at 164.846 78.74 0)
+		(at 165.1 37.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1363,16 +1363,6 @@
 			(type default)
 		)
 		(uuid "0ae0ffe0-2821-485a-8eb4-b640bd2f1ddc")
-	)
-	(wire
-		(pts
-			(xy 46.99 36.83) (xy 57.15 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0be6469f-ee37-4e6a-b6ce-80177ee099ce")
 	)
 	(wire
 		(pts
@@ -2156,7 +2146,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 36.83) (xy 41.91 36.83)
+			(xy 38.1 36.83) (xy 57.15 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2206,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 162.56 73.66)
+			(xy 152.4 73.66) (xy 177.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2263,16 +2253,6 @@
 			(type default)
 		)
 		(uuid "e8b2884d-aa8a-4485-bcb9-77b08ea212af")
-	)
-	(wire
-		(pts
-			(xy 167.64 73.66) (xy 177.8 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9a34b47-39a3-49e8-89d9-c03b3e5a4d5f")
 	)
 	(wire
 		(pts
@@ -2335,7 +2315,7 @@
 		(uuid "fee40e7e-a030-4783-9edd-56d6ef2bf59f")
 	)
 	(hierarchical_label "SD_DETECT"
-		(shape input)
+		(shape output)
 		(at 152.4 73.66 180)
 		(effects
 			(font
@@ -2346,7 +2326,7 @@
 		(uuid "28629c40-506c-4fd5-bfed-8539a3326904")
 	)
 	(hierarchical_label "SD_DAT1"
-		(shape input)
+		(shape bidirectional)
 		(at 152.4 68.58 180)
 		(effects
 			(font
@@ -2357,7 +2337,7 @@
 		(uuid "49573c6d-91f9-4b4a-bb9d-87ff4bb3e7f4")
 	)
 	(hierarchical_label "FLASH_IO0"
-		(shape input)
+		(shape bidirectional)
 		(at 38.1 46.99 180)
 		(effects
 			(font
@@ -2368,7 +2348,7 @@
 		(uuid "77ce4628-c84f-4141-9a04-fbbaf3b537f2")
 	)
 	(hierarchical_label "FLASH_IO3"
-		(shape input)
+		(shape bidirectional)
 		(at 38.1 62.23 180)
 		(effects
 			(font
@@ -2379,7 +2359,7 @@
 		(uuid "82cb3b50-a33e-4846-a891-4a54620d554a")
 	)
 	(hierarchical_label "FLASH_IO1"
-		(shape input)
+		(shape bidirectional)
 		(at 38.1 52.07 180)
 		(effects
 			(font
@@ -2390,7 +2370,7 @@
 		(uuid "90a9f204-3f01-4d57-91be-f9d899178eb6")
 	)
 	(hierarchical_label "SD_DAT3"
-		(shape input)
+		(shape bidirectional)
 		(at 152.4 48.26 180)
 		(effects
 			(font
@@ -2434,7 +2414,7 @@
 		(uuid "b4b7168d-f89e-4a56-a37c-638d26a82560")
 	)
 	(hierarchical_label "SD_DAT0"
-		(shape input)
+		(shape bidirectional)
 		(at 152.4 63.5 180)
 		(effects
 			(font
@@ -2445,7 +2425,7 @@
 		(uuid "c9b934d5-2b08-44d2-9f65-ec681133f576")
 	)
 	(hierarchical_label "FLASH_IO2"
-		(shape input)
+		(shape bidirectional)
 		(at 38.1 57.15 180)
 		(effects
 			(font
@@ -2467,7 +2447,7 @@
 		(uuid "d3beda43-97f1-47eb-8626-7de018a7a0f7")
 	)
 	(hierarchical_label "SD_DAT2"
-		(shape input)
+		(shape bidirectional)
 		(at 152.4 43.18 180)
 		(effects
 			(font
@@ -3143,73 +3123,6 @@
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/aa369500-0174-4f7d-8ef6-77a35d9b812a"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 165.1 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c37b7d7-bd40-42a5-9cad-7fd43468de72")
-		(property "Reference" "R24"
-			(at 162.56 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 167.386 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 165.1 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e81dfa3-198e-478f-a66b-d2874eb9471d")
-		)
-		(pin "1"
-			(uuid "cbfa1b51-51fe-41f4-83a4-bfe9b7369fef")
-		)
-		(instances
-			(project "flight-computer"
-				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/aa369500-0174-4f7d-8ef6-77a35d9b812a"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4246,73 +4159,6 @@
 			(project "flight-computer"
 				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/aa369500-0174-4f7d-8ef6-77a35d9b812a"
 					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 44.45 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b878ba9d-59b5-4c50-b4ac-6e0610302890")
-		(property "Reference" "R36"
-			(at 41.91 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 46.736 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 44.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "496f4c56-01dd-4a51-af78-579fa15f393b")
-		)
-		(pin "1"
-			(uuid "67b1280d-49eb-4121-aac5-ff841ac2670b")
-		)
-		(instances
-			(project "flight-computer"
-				(path "/84bf90ca-3018-4167-b21c-becfa336d24d/aa369500-0174-4f7d-8ef6-77a35d9b812a"
-					(reference "R36")
 					(unit 1)
 				)
 			)

@@ -2980,7 +2980,7 @@
 		(uuid "5be2cd3b-5b50-402a-a64e-10119f8ed3e8")
 	)
 	(hierarchical_label "IMU_INT2"
-		(shape input)
+		(shape output)
 		(at 266.7 48.26 0)
 		(effects
 			(font
@@ -2991,7 +2991,7 @@
 		(uuid "71cad961-005a-45e2-a4b8-ce0ab3a38f53")
 	)
 	(hierarchical_label "SPI_SDI"
-		(shape input)
+		(shape bidirectional)
 		(at 38.1 101.6 180)
 		(effects
 			(font
@@ -3002,7 +3002,7 @@
 		(uuid "7aec2396-2925-412d-af93-1f90eebe37ca")
 	)
 	(hierarchical_label "MAG_INT"
-		(shape input)
+		(shape output)
 		(at 177.8 44.45 0)
 		(effects
 			(font
@@ -3013,7 +3013,7 @@
 		(uuid "b6b80e07-4bdc-4929-ba55-fdc7816f0773")
 	)
 	(hierarchical_label "BARO_INT"
-		(shape input)
+		(shape output)
 		(at 38.1 57.15 180)
 		(effects
 			(font
@@ -3024,7 +3024,7 @@
 		(uuid "d1297c59-f160-4cd6-add5-68a127d49acc")
 	)
 	(hierarchical_label "IMU_INT1"
-		(shape input)
+		(shape output)
 		(at 266.7 45.72 0)
 		(effects
 			(font

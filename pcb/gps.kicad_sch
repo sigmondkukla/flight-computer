@@ -1069,6 +1069,17 @@
 		)
 		(uuid "87191884-b366-4704-87d5-b6349e1d6edf")
 	)
+	(text "idk if were gonna have \nboard space for this or not\nmaybe just go u.fl or SMA"
+		(exclude_from_sim no)
+		(at 120.142 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9ebb4f93-c3f2-4f9f-82d3-d9c9c24ce55e")
+	)
 	(text "close to GPS"
 		(exclude_from_sim no)
 		(at 101.6 64.008 0)
@@ -1088,6 +1099,16 @@
 			)
 		)
 		(uuid "bc6e352d-3ace-4a80-a92a-f6f43c411f15")
+	)
+	(text "consider SAM-M8Q-0 for integrated antenna"
+		(exclude_from_sim no)
+		(at 81.534 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d12f5117-7c1a-4420-992b-455b5500e21d")
 	)
 	(text "50 ohm"
 		(exclude_from_sim no)

@@ -2539,7 +2539,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "UJ20-C-H-G-SMT-P16-TR"
 			(at 35.56 33.02 0)
 			(effects
 				(font
@@ -2547,7 +2547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMESKY_UJ20-C-H-G-SMT-P16-TR:SAMESKY_UJ20-C-H-G-SMT-P16-TR"
 			(at 39.37 53.34 0)
 			(effects
 				(font

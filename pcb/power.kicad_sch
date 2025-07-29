@@ -4157,7 +4157,7 @@
 				)
 			)
 		)
-		(property "Value" "ATNR6028MH100MT"
+		(property "Value" "HPC 5040NV-2R2M"
 			(at 104.14 124.46 90)
 			(effects
 				(font
@@ -4165,7 +4165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "L_TAI-TECH:L_TAI-TECH_HPC5040NV"
 			(at 104.14 127 0)
 			(effects
 				(font

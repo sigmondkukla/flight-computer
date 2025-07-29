@@ -2218,7 +2218,7 @@
 		)
 		(uuid "503ff53f-b4ec-4ac8-a931-8affb95c3276")
 	)
-	(text "OLED display\nSSD1306\n0.91\" or 0.96\""
+	(text "OLED display\nSSD1306\n0.91\" MC091GX 128x32"
 		(exclude_from_sim no)
 		(at 90.424 14.732 0)
 		(effects
@@ -3418,7 +3418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "B38G3RGB:B38G3RGB-10D0003H2U1930_HVK"
 			(at 52.07 33.02 0)
 			(effects
 				(font
@@ -4364,7 +4364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSD1306_OLED"
+		(property "Value" "MC091GX"
 			(at 128.27 39.3699 0)
 			(effects
 				(font
@@ -4373,7 +4373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MC091GX:MC091GX"
 			(at 120.65 31.75 0)
 			(effects
 				(font

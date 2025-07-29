@@ -5971,7 +5971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wurth_ScrewTerminal_691137710002:Wurth_ScrewTerminal_691137710002"
 			(at 134.62 74.93 0)
 			(effects
 				(font

@@ -2738,7 +2738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wurth_ScrewTerminal_691137710002:Wurth_ScrewTerminal_691137710002"
 			(at 58.42 22.86 0)
 			(effects
 				(font
@@ -3158,7 +3158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wurth_ScrewTerminal_691137710002:Wurth_ScrewTerminal_691137710002"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -3986,7 +3986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wurth_ScrewTerminal_691137710002:Wurth_ScrewTerminal_691137710002"
 			(at 172.72 36.83 0)
 			(effects
 				(font
